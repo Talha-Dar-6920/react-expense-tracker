@@ -1,0 +1,86 @@
+/**********************************************
+*** TOP PART
+**********************************************/
+
+.top {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('../../assets/background.webp');
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.budget {
+  position: absolute;
+  width: 35rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.budget__title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.budget__value {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.budget__value span {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.budget__income,
+.budget__expenses {
+  padding: 1.2rem;
+  text-transform: uppercase;
+}
+
+.budget__income {
+  margin-bottom: 1rem;
+  background-color: #28b9b5;
+}
+
+.budget__expenses {
+  background-color: #ff5049;
+}
+
+.budget__income--text,
+.budget__expenses--text {
+  float: left;
+  font-size: 1.3rem;
+  color: #444;
+  margin-top: 2px;
+}
+
+.budget__income--value,
+.budget__expenses--value {
+  letter-spacing: 1px;
+  float: left;
+}
+
+.budget__income--percentage,
+.budget__expenses--percentage {
+  float: left;
+  width: 3.4rem;
+  font-size: 1.1rem;
+  padding: 3px 0;
+  margin-left: 10px;
+}
+
+.budget__expenses--percentage {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  border-radius: 3px;
+}
